@@ -46,16 +46,16 @@ namespace UniqueRegionNamesPatcher
             }
             else
             {
-                mapStream = new MemoryStream(Encoding.ASCII.GetBytes(Properties.Resources.tamriel_map));
+                mapStream = new MemoryStream(Encoding.UTF8.GetBytes(Properties.Resources.tamriel_map));
             }
 
             Stream regionStream;
             if (OverrideRegionPath.Trim().Length > 0)
             {
-                if (File.Exists(OverrideMapPath))
+                if (File.Exists(OverrideRegionPath))
                 {
-                    Console.WriteLine($"Using custom map path '{OverrideMapPath}'");
-                    using StreamReader sr = new(File.Open(OverrideMapPath, FileMode.Open, FileAccess.Read));
+                    Console.WriteLine($"Using custom region path '{OverrideRegionPath}'");
+                    using StreamReader sr = new(File.Open(OverrideRegionPath, FileMode.Open, FileAccess.Read));
                     using StreamWriter sw = new(regionStream = new MemoryStream());
                     sw.Write(sr.ReadToEnd());
                     sr.Close();
@@ -66,12 +66,12 @@ namespace UniqueRegionNamesPatcher
                 }
                 else
                 {
-                    throw new Exception($"The custom map path '{OverrideMapPath}' doesn't exist!");
+                    throw new Exception($"The custom region path '{OverrideRegionPath}' doesn't exist!");
                 }
             }
             else
             {
-                regionStream = new MemoryStream(Encoding.ASCII.GetBytes(Properties.Resources.tamriel_region));
+                regionStream = new MemoryStream(Encoding.UTF8.GetBytes(Properties.Resources.tamriel_region));
             }
 
             return new(mapStream, regionStream, Worldspace.FormKey, ref state);
