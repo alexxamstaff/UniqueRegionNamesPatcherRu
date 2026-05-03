@@ -1,81 +1,100 @@
 [xxxMapCastleVolkihar]
 color = FF3A4B
+mapName = Замок Волкихар
 priority = 35
 [xxxMapCollege]
 color = BFD1FF
-mapName = College of Winterhold
+mapName = Коллегия Винтерхолда
 priority = 60
 [xxxMapDawnstar]
 color = B57EFF
+mapName = Данстар
 priority = 60
 [xxxMapDragonBridge]
 color = D3003E
+mapName = Драконий Мост
 priority = 60
 [xxxMapEastmarch]
 color = 80B8CE
+mapName = Истмарк
 priority = 57
 [xxxMapFalkreath]
 color = D8FF00
+mapName = Фолкрит
 priority = 60
 [xxxMapFalkreathHold]
 color = D8FF77
+mapName = Владение Фолкрит
 priority = 57
 [xxxMapHaafingar]
 color = D3282B
+mapName = Хаафингар
 priority = 56
 [xxxMapHelgen]
 color = BEFF77
+mapName = Хелген
 priority = 60
 [xxxMapHjaalmarch]
 color = 317037
+mapName = Хьялмарк
 priority = 59
 [xxxMapIvarstead]
 color = FF7AFF
+mapName = Айварстед
 priority = 60
 [xxxMapKarthwasten]
 color = 82D3AA
+mapName = Картвастен
 priority = 61
 [xxxMapKynesgrove]
 color = 80FFCE
+mapName = Роща Кин
 priority = 60
 [xxxMapMorthal]
 color = 31A037
+mapName = Морфал
 priority = 60
 [xxxMapPale]
 color = B57E9B
-mapName = The Pale
+mapName = Белый Берег
 priority = 58
 [xxxMapReach]
 color = 82D37C
-mapName = The Reach
+mapName = Предел
 priority = 60
 [xxxMapRift]
 color = BC7AFF
-mapName = The Rift
+mapName = Рифт
 priority = 58
 [xxxMapRiverwood]
 color = FFB67C
+mapName = Ривервуд
 priority = 60
 [xxxMapRorikstead]
 color = C6FF7C
+mapName = Рорикстед
 priority = 60
 [xxxMapSea]
 color = 004CFF
-mapName = The Sea of Ghosts
+mapName = Море Призраков
 priority = 55
 [xxxMapShorsStone]
 color = FF51F9
+mapName = Камень Шора
 priority = 60
 [xxxMapThroat]
 color = FFFFFF
-mapName = The Throat of the World
+mapName = Глотка Мира
 priority = 55
 [xxxMapWhiterunHold]
 color = FFD37C
+mapName = Владение Вайтран
 priority = 56
 [xxxMapWinterhold]
 color = BFFFFF
+mapName = Винтерхолд
 priority = 60
 [xxxMapWinterholdHold]
 color = BFD1BC
+mapName = Владение Винтерхолд
 priority = 56
